@@ -56,7 +56,7 @@ CONTENTS OF THIS FILE
  
  ## Get all the Students using GET /api/student API.
  
- <img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/Read_students.gif" />
+ <img   alt="" src="https://raw.githubusercontent.com/ayushshrma/StudentManagement/main/images/postman/Read_students.gif" />
  
 ## Getting a student using GET /api/student/{id} API.
   
@@ -64,25 +64,25 @@ CONTENTS OF THIS FILE
   
 ## Deleting a student using DELETE /api/student/{id} API.
  
-   <img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/deletestudent.gif" />
+   <img   alt="" src="https://raw.githubusercontent.com/ayushshrma/StudentManagement/main/images/postman/deletestudent.gif" />
 
 ## Add a new teacher using POST /api/teacher API.
 
 ## get list of students assigned to teacher using GET /api/student/:teacher 
 
- <img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/Read_studentsbyteacher.gif" />
+ <img alt="" src="https://raw.githubusercontent.com/ayushshrma/StudentManagement/main/images/postman/Read_studentsbyteacher.gif" />
 
 ## get teacher by Subject using GET /api/teacher/:subject
 
-<img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/Read_teacherbysubject.gif" />
+<img  alt="" src="https://raw.githubusercontent.com/ayushshrma/StudentManagement/main/images/postman/Read_teacherbysubject.gif" />
 
 ## get student by section and class using GET /api/student/:section/:class
 
-<img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/Readstudentsbysection.gif" />
+<img   alt="" src="https://raw.githubusercontent.com/ayushshrma/StudentManagement/main/images/postman/Readstudentsbysection.gif" />
 
 ## get all teachers using GET /api/teacher
 
-<img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/Readteacher.gif.gif" />
+<img   alt="" src="https://raw.githubusercontent.com/ayushshrma/StudentManagement/main/images/postman/Readteacher.gif" />
 
 ## Contact
   E-mail: [sharmaayush20999@gmail.com](mailto:sharmaayush20999@gmail.com)
