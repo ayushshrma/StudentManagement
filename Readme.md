@@ -10,10 +10,10 @@ CONTENTS OF THIS FILE
 
  ## Introduction
 
- In this project, I have created a RESTful CRUD API that allows user to create, read, update, and delete movies. The API is implemented using Node.js, Express, and MongoDB.I have used the Mongoose ORM to create the database schema.
+ In this project, I have created a RESTful CRUD API that allows user to create, read, update in student management system. The API is implemented using Node.js, Express, and MongoDB.I have used the Mongoose ORM to create the database schema.
  
  I have start by building the API using the RESTful design pattern. The API is implemented using the following HTTP methods: PUT, GET, POST, and DELETE.
- Building the movies model and different routes for handling all the CRUD operations. 
+ Building the teacher and students model and different routes for handling all the CRUD operations. 
  
  Finally, I have test my REST APIs using Postman. 
 
@@ -22,7 +22,7 @@ CONTENTS OF THIS FILE
  * Node.js
  * Express
  * MongoDB
- * Mongoose
+ * Mongoose ODM
  * Postman
  * MongoDB Atlas
 
@@ -31,7 +31,9 @@ CONTENTS OF THIS FILE
  1. Clone the repository
  2. Install the dependencies using npm
  3. Start the server using the command "node index.js"
- 4. Access the API using the following URL: http://localhost:8080/api/movies.
+ 4. Access the API using the following URL:
+  http://localhost:8080/api/student.
+  http://localhost:8080/api/teacher.
  5. Test the API using Postman.
 
  ## Structure
@@ -39,7 +41,7 @@ CONTENTS OF THIS FILE
  The project is structured as follows:
 
  * **index.js**: Contains the server code.
- * **models**: Contains the movie model.
+ * **models**: Contains the teacher & student models.
  * **routes**: Contains the routes for handling the CRUD operations.
  * **test**: Contains the test code.
  * **config**: Contains the configuration files.
@@ -50,29 +52,41 @@ CONTENTS OF THIS FILE
 
  The project is tested using Postman.
 
-## Creating a new movie using POST /api/movies API.
+## Add a new student using POST /api/student API.
  
- <img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/create_movie.gif" />
-
-## Reading all the movies using GET /api/movies API.
+ ## Get all the Students using GET /api/student API.
  
- <img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/read_movies.gif" />
+ <img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/Read_students.gif" />
  
-## Reading a movie using GET /api/movies/{id} API.
+## Getting a student using GET /api/student/{id} API.
   
-  <img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/read_moviebyid.gif" />
-
-## Updating a movie using PUT /api/movies/{id} API.
+## Updating a student using PUT /api/student/{id} API.
   
-   <img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/update_movie.gif" />
+## Deleting a student using DELETE /api/student/{id} API.
+ 
+   <img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/deletestudent.gif" />
 
-## Deleting a movie using DELETE /api/movies/{id} API.
- 
-   <img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/delete_movie.gif" />
- 
+## Add a new teacher using POST /api/teacher API.
+
+## get list of students assigned to teacher using GET /api/student/:teacher 
+
+ <img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/Read_studentsbyteacher.gif" />
+
+## get teacher by Subject using GET /api/teacher/:subject
+
+<img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/Read_teacherbysubject.gif" />
+
+## get student by section and class using GET /api/student/:section/:class
+
+<img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/Readstudentsbysection.gif" />
+
+## get all teachers using GET /api/teacher
+
+<img  height="250" width="475" alt="" src="https://raw.githubusercontent.com/ayushshrma/RESTfulapi /master/images/postman/Readteacher.gif.gif" />
+
 ## Contact
   E-mail: [sharmaayush20999@gmail.com](mailto:sharmaayush20999@gmail.com)
-  Websites: [http://ayushshrma.github.io](http://ayushshrma.github.io)
+  Website: [http://ayushshrma.github.io](http://ayushshrma.github.io)
   Linkedin: [https://www.linkedin.com/in/ayushsharmaa](https://www.linkedin.com/in/ayushsharmaa)
 
 

@@ -1,7 +1,7 @@
 {
   "name": "crudoperations",
   "version": "1.0.0",
-  "description": "nodejs crud operations mongodb ",
+  "description": "nodejs crud operations for student management system ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

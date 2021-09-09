@@ -16,22 +16,28 @@ app.use(bodyParser.json());
 const mongoose = require('mongoose');
 const db = require('./config/database');
 
+//Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js.
+
+
 mongoose.Promise = global.Promise;
 
 // connecting to the database
 mongoose.connect(db.url, {
-      useNewUrlParser: true
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true
     }).then (() => {
         console.log('Connected to database:: MongoDB');
     }).catch((err) => {
         console.log('Error connecting to database');
         console.log(err);
+        
     });
 
 
 
 app.get('/', (req, res) => {
-  res.json({"Message":"Welcome to my application"});
+  res.json({"Message":"Welcome to studentManagement system"});
 });
 
 // Require the movie route
