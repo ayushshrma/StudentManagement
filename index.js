@@ -40,7 +40,7 @@ app.get('/', (req, res) => {
   res.json({"Message":"Welcome to studentManagement system"});
 });
 
-// Require the movie route
+// Require the route
 require('./routes/route.js')(app);
 
 //listen for request 
